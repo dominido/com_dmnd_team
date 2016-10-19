@@ -1,0 +1,64 @@
+<?xml version="1.0" encoding="utf-8" ?>
+
+<form>
+	<fieldset name="details" label="Details of catalog item">
+
+		<field name="id" type="hidden" />
+
+		<field name="title" 
+				type="text" 
+				label="Title"
+				description="Title"
+				size="40"
+				class="inputbox"
+				required="true"
+				default="" />
+
+		<field name="subtitle" 
+				type="text" 
+				label="Job"
+				description="Job Title"
+				size="40"
+				class="inputbox"
+				default="" />
+
+		<field name="catid" 
+				type="customcategory" 
+				label="Category"
+				description="Category"
+				default="" />
+
+		<field name="phone" 
+				type="fewitems" 
+				label="Items"
+				description=""
+				default="" />
+
+		<field name="email" 
+				type="text" 
+				label="Email"
+				description="Email"
+				size="40"
+				class="inputbox"
+				default="" />
+
+		<field name="ordering" 
+				type="text" 
+				label="Ordering"
+				description="Ordering"
+				size="40"
+				class="inputbox"
+				default="" />
+
+
+		<field name="published" type="list" label="JSTATUS" description="JFIELD_PUBLISHED_DESC" class="chzn-color-state" filter="intval" size="1" default="1">
+			<option value="1">JPUBLISHED</option>
+			<option value="0">JUNPUBLISHED</option>
+		</field>
+
+		<field folder="/images/team/" name="image" type="onepic" label="Image" description="Image" size="10" accept="image/*" />
+
+
+
+	</fieldset>
+</form>

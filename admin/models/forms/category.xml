@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="utf-8" ?>
+
+<form>
+	<fieldset name="details" label="Category Details">
+
+		<field name="id" type="hidden" />
+
+		<field name="title" 
+				type="text" 
+				label="Title"
+				description="Title of category"
+				size="40"
+				class="inputbox"
+				required="true"
+				default="" />
+
+
+	</fieldset>
+</form>

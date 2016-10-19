@@ -1,0 +1,15 @@
+input[type=text], textarea {
+	direction: rtl;
+}
+
+.item-block input[type=text]{
+	width: 110px;
+}
+
+#jform_details {
+	width: 400px;
+}
+
+.ordering_field input{
+	width: 40px;
+}
